@@ -27,17 +27,17 @@
 }
 
 /* added from project */
-.primary { color: #F5E0DA;}
+.primary { color: #c093cc;}
 
 .primary-background {
-  background-color: #F5E0DA;
+  background-color: #c093cc;
   height: 100%;
   width: 100%;
 }
 
-.h1 {
+/* .h1 {
   font-family: 'Crimson Pro', serif;
-}
+} */
 
 #has-bg-img{
   position: relative;
@@ -75,3 +75,46 @@
   padding: 3rem;
 }
 
+.news {
+  flex-direction: column;
+  padding-bottom: 3rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-top: 2rem;
+}
+
+.newsCate {
+  font-style: italic;
+  color: darkorchid;
+}
+
+.newsTitle {
+  font-size: x-large;
+  font-weight: bold;
+}
+
+.newsBar {
+  font-size: medium;
+}
+
+.newsHeader {
+  font-size: x-large;
+  font-weight: bold;
+  padding-bottom: 1rem;
+}
+
+.meetupHeader{
+  padding-bottom: 1rem;
+}
+
+.calendButton {
+  padding: 8px 10px;
+  width: 150px;
+  /* font-family: Lato;
+  font-style: normal; */
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #fff;
+  background-color: #c093cc;
+  border-color: #c093cc;
+}

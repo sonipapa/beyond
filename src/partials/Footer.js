@@ -7,7 +7,7 @@ function Footer(){
         <footer>
             <div class="content has-text-centered">
                 <p>
-                <strong>TCS Beyond</strong> by <a>Team X+Y</a> at   
+                <strong>TCS Beyond</strong> by <a href="/About">Team X+Y</a> at   
                 <a href="https://www.tech.cornell.edu/"> Cornell Tech</a>.
                 </p>
             </div>

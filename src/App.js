@@ -9,6 +9,8 @@ import Newsfeed from './pages/Newsfeed';
 import Meetup from './pages/Meetup';
 import About from './pages/About';
 import Login from './pages/Login';
+import UserProfile from './pages/Userprofile';
+import Test from './pages/Test';
 
 import { useState } from "react";
 import { signOut } from "firebase/auth";
@@ -37,12 +39,11 @@ function App() {
         <Routes>
             <Route exact path='/' element = {<Home />} />
             <Route path="/About" element={<About/>} />
-            <Route path='/Newsfeed' element={<Newsfeed/>} />
-            <Route path="/Meetup" element={<Meetup/>} />
+            <Route path='/Newsfeed' element={<Newsfeed isAuth={isAuth}/>} />
+            <Route path="/Meetup" element={<Meetup isAuth={isAuth}/>} />
+            {/* <Route path="/Test" element={<Test/>} /> */}
             <Route path="/login" element={<Login setIsAuth={setIsAuth} />} />
-            {/* <Route path='/Newsfeed' element={<Newsfeed isAuth={isAuth}/>} /> */}
-            {/* <Route path="/Meetup" element={<Meetup isAuth={isAuth} />} /> */}
-            {/* <Route path="/user" element={<UserInfo isAuth={isAuth} /> }/> */}
+            <Route path="/User" element={<UserProfile isAuth={isAuth} />} />
 
 
         </Routes>

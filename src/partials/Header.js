@@ -41,7 +41,7 @@ function Header(){
         <Navbar.Brand>
           <Navbar.Item renderAs="a" href="/">
             <img 
-              src={logo} width="50" height="50"
+              src={logo}
               alt="TCS Beyond"
             />
           </Navbar.Item>
@@ -60,9 +60,10 @@ function Header(){
 
         <div id="navbarMenu" className={`navbar-menu ${isActive ? 'is-active' : ''}`}>
           <Navbar.Container>
-            <Navbar.Item href="Newsfeed">NEWSFEED</Navbar.Item>
-            <Navbar.Item href="Meetup">MEETUP</Navbar.Item>
-            <Navbar.Item href="About">ABOUT</Navbar.Item>
+            <Navbar.Item href="Newsfeed">Newsfeed</Navbar.Item>
+            <Navbar.Item href="Meetup">Meetup</Navbar.Item>
+            <Navbar.Item href="About">About Us</Navbar.Item>
+            {/* <Navbar.Item href="Test">Test</Navbar.Item> */}
           </Navbar.Container>
           <Navbar.Container class="navbar-end">
               
